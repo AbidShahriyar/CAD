@@ -1,2 +1,4 @@
-# Prediction of Coronary Artery Disease from Machine Learning
+# Summary
 Throughout the notebook I've compiled, cleaned and analyzed the heart disease datasets made available publicly by UCI machine learning repository and then tried few state of the art machine learning models to predict CAD from the data. 70/30 Train test split was done and hyperparameters were tuned using K Fold Cross Validation Technique. Finally a soft vote machine learning ensemble is built that outperforms the other models and reached 86% f1 score, 86% precision and 85% recall. Model Explainability tools are used to reason model's behaviour.
+## About the Files
+I've downloaded the following files from https://archive.ics.uci.edu/ml/datasets/heart+disease - "heart-disease.names", "processed.cleveland.data", "reprocessed.hungarian.data", "processed.va.data", "processed.switzerland.data". Then the data was combined into an xlsx file named "All data UCI.xlsx" manually using excel. All other steps are described in the ipynb file named - "Prediction_of_CAD_with_ML.ipynb"
